@@ -6,11 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment 7</title>
 </head>
+<style>
+  .heading {
+    color: red;
+  }
+
+  #heading {
+    color: green;
+  }
+</style>
 
 <body>
   <div>
     <a href="./index.html"><img src="./img/icons8-back-button-48.png" alt=""></a>
   </div>
+  <!-- Assignment 7: ID Selector Precedence
+1. Create a webpage with:
+- A heading
+- A paragraph
+2. Use the following CSS:
+- Style the heading with a color of red using a class selector.
+- Use an ID selector to override the color of the heading to green.
+- Verify that the ID selector takes precedence and makes the heading green.
+ -->
+  <h1 class="heading" id="heading">This is heading tag</h1>
+  <p>This is paragraph tag</p>
 </body>
 
 </html>
